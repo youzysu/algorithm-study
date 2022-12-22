@@ -4,14 +4,14 @@ function solution(s, count = 0) {
   const charList = s.split('');
   let [firstChar, ...restChars] = charList;
 
-  let countSameChar = 1;
-  let countDifferentChar = 0;
+  let countFirstChar = 1;
+  let countOtherChars = 0;
 
   let index = 0;
   for (; index < restChars.length; index++) {
-    if (restChars[index] === firstChar) countSameChar += 1;
-    else countDifferentChar += 1;
-    if (countSameChar === countDifferentChar) break;
+    if (restChars[index] === firstChar) countFirstChar += 1;
+    else countOtherChars += 1;
+    if (countFirstChar === countOtherChars) break;
   }
 
   const nextSubstring = restChars.slice(index + 1).join('');
