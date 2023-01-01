@@ -17,3 +17,7 @@
 #### 2주차 (12/24~1/1, 진행일 1/1)
 - [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061)
 - [키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)
+
+#### 3주차 (1/2~1/8, 진행일 1/8)
+- [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
+- [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
