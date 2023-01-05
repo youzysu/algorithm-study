@@ -1,5 +1,5 @@
 function solution(s) {
-  let answer = 0;
+  let count = 0;
   let firstChar = '';
   let firstCharCount = 0;
   let theOtherCharCount = 0;
@@ -14,13 +14,13 @@ function solution(s) {
     }
 
     if (firstCharCount === theOtherCharCount) {
-      answer += 1;
+      count += 1;
       firstChar = '';
       firstCharCount = 0;
       theOtherCharCount = 0;
     }
   }
 
-  if (firstChar) answer += 1;
-  return answer;
+  if (firstChar) count += 1;
+  return count;
 }
